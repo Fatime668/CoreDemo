@@ -34,12 +34,12 @@
 
 								</ul>
 								<h5 class="card-title">
-									<a href="single.html">@item.Title</a>
+									<a href="/Blog/BlogReadAll/@item.Id">@item.Title</a>
 								</h5>
 								<p class="card-text mb-3">
 								@(item.Content.Substring(0,item.Content.Substring(0,130).LastIndexOf(" "))+"...")
 								</p>
-								<a href="/Blog/Details/@item.Id" class="btn btn-primary read-m">Read More</a>
+								<a href="/Blog/BlogReadAll/@item.Id" class="btn btn-primary read-m">Read More</a>
 							</div>
 						</div>
 					}	
