@@ -1,0 +1,6 @@
+﻿@model IEnumerable<CoreDemo.Models.UserComment>
+
+    @foreach(var item in Model){
+        <h1>@item.Id</h1>
+        <h1>@item.Username</h1>
+    }    
